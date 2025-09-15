@@ -22,5 +22,5 @@ export const GAME_PROMPTS = {
   `,
 
   GENERATE_IMAGE: (imageDescription: string) => `Generate a pixel art style image in 16:9 aspect ratio: ${imageDescription}.
-  Use 8-bit retro gaming aesthetic with limited color palette, blocky pixelated style, and clear definition. The image should be in landscape format (16:9 ratio) `
+  Use 8-bit retro gaming aesthetic with limited color palette, blocky pixelated style, and clear definition. The image should be in landscape format (16:9 ratio)`
 }

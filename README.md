@@ -6,5 +6,5 @@
   pnpm add ai @ai-sdk/google
 ```
 
-https://www.youtube.com/watch?v=hn9qFxnT98U&t=473s
+https://www.youtube.com/watch?v=hn9qFxnT98U&
 40:00

@@ -9,16 +9,18 @@ import { GenerateImageRequest, GenerateStoryRequest } from '@/lib/types';
 export async function POST(request: NextRequest) {
   try {
     const { imagePrompt }: GenerateImageRequest = await request.json();
+    console.log("imagePrompt: ",imagePrompt);
 
     const prompt = GAME_PROMPTS.GENERATE_IMAGE(imagePrompt);
+    console.log("prompt: ",prompt);
     // Generate image using the AI model
     // generateText is for create text and image
     const { files } = await generateText({
-      model: google('gemini-2.5-flash-image-preview',),
+      model: google('gemini-2.5-flash',),
       prompt,
       providerOptions:{
         google:{
-          responseModalities:['image'],
+          responseModalities:['IMAGE'],
         }
       }
 
