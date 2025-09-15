@@ -16,6 +16,6 @@ export const UI_MESSAGES = {
 export const GAME_CONFIG = {
   IMAGE: {
     DEFAULT_PROMPT: 'zombie apocalypse scene pixel art style',
-    SEPARATOR: 'IMAGEN:'
+    SEPARATOR: 'IMAGEN: '
   }
 }

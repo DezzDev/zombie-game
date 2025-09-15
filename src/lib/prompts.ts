@@ -1,4 +1,4 @@
-export const GAME_PROMPT = {
+export const GAME_PROMPTS = {
   INITIAL_STORY: `Eres el narrador de un juego de aventuras conversacional de supervivencia zombie en estilo pixel art.
 
   Genera la escena inicial del juego donde el jugador se encuentra en el inicio del apocalipsis zombie. Describe la situación de manera inmersíva y dramática en MÁXIMO 2 párrafos cortos.

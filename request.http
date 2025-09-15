@@ -1,0 +1,8 @@
+POST https://localhost:3000/generate-story HTTP/1.1
+content-type: application/json
+
+{
+  "userMessage": "Look around", 
+  "conversationHistory": [], 
+  "isStart": true,
+}

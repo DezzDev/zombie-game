@@ -6,10 +6,14 @@ export interface GameMessage {
   imageLoading?: string;
 }
 
-export interface GenerateImage {
+export interface GeneratedImage {
   base64Data: string;
   mediaType: string;
   uint8ArrayData: Uint8Array;
+}
+
+export interface GenerateImageRequest {
+  imagePrompt: string;
 }
 
 export interface ConversationMessage{
@@ -24,6 +28,6 @@ export interface GenerateStoryRequest {
 }
 
 export interface GenerateStoryResponse{
-  story:string;
-  image: GenerateImage;
+  narrative:string;
+  imagePrompt: string;
 }
